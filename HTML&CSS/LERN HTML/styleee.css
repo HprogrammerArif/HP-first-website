@@ -1,0 +1,131 @@
+.rakib{color: rgba(75, 120, 280, 70); font-size: 100px; font-family: serif;}
+#fahim{font-family:fantasy; font-size: 40px;}
+#fahim{border: 4px solid  darkred; outline: 3px salmon double; margin: 30px; padding: 20px;}
+
+.farhan{font-size: 30px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 40; border: 5px solid cyan; padding: 30px ;
+}
+
+i{
+    color: rgb(39, 87, 87); font-size: 100px;
+}
+
+
+span{
+    color: rgb(116, 25, 108); font-size: 9000%; font-weight: bolder;
+}
+.box1:link{
+    color: brown;
+    text-decoration:dotted;
+    background-color: aqua;
+}
+
+.box1:hover{
+    color: black;
+    background-color: lightblue;
+    text-decoration: overline;
+}
+.box1:active{
+    color: rgb(255, 255, 0);
+    background-color: green;
+    text-transform: lowercase;
+    text-size-adjust: 100%;
+}
+.box1:visited{
+    color: lightslategray;
+    text-justify: auto;
+}
+
+.noteA{
+    background-color: rgb(151, 213, 248, .70);
+    text-shadow: 5px .1px 3px;
+    font-size: 30px;
+    font-family:serif;
+}
+#float1{
+    font-style: italic;
+    float: right;
+    background-color: aqua;
+}
+#float1{
+    font-style: italic;
+    float: left;
+}
+
+#image-cointenar{
+    background-color: aquamarine;
+    background-size: cover;
+    overflow: scroll;
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#forbgimg{
+    background-image: url(/IMAGE/vegetable.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+
+table{ 
+font-family:cursive;
+width: 100%;
+border-collapse: collapse;
+}
+th, td {
+    border: 1px solid rgb(93, 113, 133);
+    text-align: left;
+    padding: 6px;
+}
+
+tr:nth-child(even){
+background-color: rgb(226, 226, 253);
+}
+
+.collapse{
+    border: 4px solid rgb(126, 223, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border-collapse: separate;
+}
+
+.colgroup{
+    background-color: rgb(192, 0, 0);
+    border-collapse: collapse;
+    border: 3px solid yellow;
+}
+.isbn{
+    background-color: azure;
+}
+.price{
+    background-color: yellow;
+}
+
+thead{
+    background-color: aqua;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+
+.bd, .th, tbody{
+    border-collapse: separate;
+    border: 3px solid white;
+
+}
+.murgitest, .murgitest1 {
+    color: rgb(2, 0, 36);
+    background-color: crimson;
+    border-radius: 50px;
+    border-collapse:separate;
+}
+.koch1, .koch2 {
+    background-color: blueviolet;
+    border-radius: 50px;
+    border-collapse:separate;
+}
+

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foodmeals</title>
+<link rel="icon" href="icons8-serve-64.png" type="image/x-icon">
+<link rel="stylesheet" href="food.css">
+</head>
+<body>
+<nav id="navbar">
+<div id="logo">
+<img src="logoFB.png" alt="onlineFoodMeals">
+<div><i>ShoaibsFood</div>
+</div>
+<ul>
+<li class="item"><a href="#">Home</a></li>
+<li class="item"><a href="#">Services</a></li>
+<li class="item"><a href="#">About Us</a></li>
+<li class="item"><a href="#">Contact Us</a></li>
+</ul>
+</i>
+<input type="search" class="search" required placeholder="Search">
+</nav>
+<section id="home">
+<h1 class="primary">Welcome To Our Meal</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<button class="btn">Order Now</button>
+</section>
+<section id="Services-container">
+<h1 class="secondary">Our Services</h1>
+<div id="service">
+<div class="box">
+<img src="download (1).jpeg" alt="">
+<h2 class="secondary-heading">Healthy Foods</h2>
+<p>It helps us in various spheres of life. Healthy food does not only impact our physical health but mental health too. When we intake healthy fruits and vegetables that are full of nutrients, we reduce the chances of diseases. For instance, green vegetables help us to maintain strength and vigor</p>
+</div>
+<div class="box">
+<img src="download.jpeg" alt="">
+<h2 class="secondary-heading">Harmful Foods</h2>
+<p>One of the major harmful effects of junk foods from your favourite fast food restaurants is obesity and its related health complications. The excessive sugar, calories, and fats present in junk foods contribute to weight gain. Obesity can lead to many medical issues, such as diabetes, joint pain, and heart diseases.</p>
+</div> <div class="box">
+<img src="images.jpeg" alt="">
+<h2 class="secondary-heading">Biryani</h2>
+<p>It helps us in various spheres of life. Healthy food does not only impact our physical health but mental health too. When we intake healthy fruits and vegetables that are full of nutrients, we reduce the chances of diseases. For instance, green vegetables help us to maintain strength and vigor</p>
+</div>
+</div>
+</section>
+<div class="foot"><footer>www.OnlineMeals.com</footer></div>
+</body>
+</html>
+
+#CSS
+#navbar::before{
+content: "";
+background-color: rgb(51, 32, 32);
+position: absolute;
+width: 100%;
+height: 11%;
+z-index: -1;
+opacity: 0.3;
+margin-left: -8px;
+}
+#navbar{
+margin-top: -10px;
+display: flex;
+align-items: center;
+}
+#logo{
+margin: 10px 30px;
+}
+#logo img{
+height: 65px;
+margin:3px
+}
+#navbar ul{
+display: flex;
+}
+#navbar ul li{
+list-style: none;
+font-size: 1.5rem;
+}
+#navbar ul li a{
+text-decoration: none;
+display: block;
+padding: 15px 15px;
+color: black ;
+}
+#navbar ul li a:hover{
+background-color: aliceblue;
+color: rgb(43, 12, 221);
+border-radius: 50px;
+}
+#home{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 3px 200px;
+height: 555px;
+}
+.search{
+text-align: center;
+padding: 6px 50px;
+margin-left: 45%;
+border-radius: 9px;
+font-size: 15px;
+}
+::placeholder{
+font-size: 15px;
+}
+#home::before{
+content: "";
+background-image: url('../foodmeals/backg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+width: 100%;
+height: 60%;
+z-index: -1;
+opacity: 0.85;
+}
+.primary{
+font-size: 2.5rem;
+padding: 15px;
+background-color: aliceblue;
+opacity: 0.7;
+border-radius: 30px;
+}
+#home p{
+text-align: center;
+font-size: 1.5rem;
+color: white;
+margin: 4px;
+}
+#home p:hover{
+color: black;
+}
+.btn{
+width: 8%;
+font-size: 1.2rem;
+border-radius: 0.5rem;
+background-color:rgb(240, 123, 102)
+}
+.btn:hover{
+background-color: black;
+color: rgb(20, 7, 7);
+cursor: pointer;
+background-color: rgb(252, 255, 71);
+}
+#Services-container{
+text-align: center;
+}
+.secondary{
+font-size: 3rem;
+padding: 15px;
+background-color:rgb(221, 218, 240);
+border-radius: 30px;
+width: 20%;
+margin: auto;
+margin-top: 25px;
+}
+#service{
+display: flex;
+margin: 30px;
+}
+.box{
+margin: 5px;
+border: 2px solid black;
+border-radius: 10px;
+background:rgb(185, 201, 160);
+}
+.box img{
+border-radius: 20px;
+margin-top: 10px;
+}
+.foot{
+text-align: center;
+background-color: black;
+color: white;
+}

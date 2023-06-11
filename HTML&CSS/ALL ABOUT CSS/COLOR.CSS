@@ -1,0 +1,28 @@
+h2{
+    color: red;
+}
+.background{color:black; 
+    background-color: brown;}
+
+
+    body{background-color: black;
+     background-image: url(/IMAGE/image.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+    }
+    p{color: whitesmoke;}
+
+
+
+    .arif1{border: 4px solid black;}
+    #arif2{border: 6px dotted darkred;}
+
+
+    .ariff{
+        width: 400px;
+        height: 500px;
+        background-color: rgb(138, 23, 90);
+        border: 5px solid white;
+        margin: auto;
+        padding:50px 30px;
+    }
